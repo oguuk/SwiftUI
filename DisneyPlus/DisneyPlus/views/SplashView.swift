@@ -8,13 +8,27 @@
 import SwiftUI
 
 struct SplashView: View {
+    
+    @State private var isAppLaunchingReady = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct SplashView_Previews: PreviewProvider {
-    static var previews: some View {
-        SplashView()
+        ZStack {
+            Color.blue
+            VStack {
+                if isAppLaunchingReady {
+                    ContentView()
+                } else {
+                    SplashRepresentableView()
+                        .frame(width: 300, height: 300)
+                }
+            }
+            .onAppear {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+                    withAnimation {
+                        self.isAppLaunchingReady = true
+                    }
+                }
+            }
+        }
     }
 }
