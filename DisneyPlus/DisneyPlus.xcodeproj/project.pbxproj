@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		349E56942A1A1DA000802197 /* DisneyPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349E56932A1A1DA000802197 /* DisneyPlusApp.swift */; };
+		349E56962A1A1DA000802197 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349E56952A1A1DA000802197 /* ContentView.swift */; };
+		349E56982A1A1DA200802197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349E56972A1A1DA200802197 /* Assets.xcassets */; };
+		349E569B2A1A1DA200802197 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349E569A2A1A1DA200802197 /* Preview Assets.xcassets */; };
+		349E56A52A1A1DA200802197 /* DisneyPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349E56A42A1A1DA200802197 /* DisneyPlusTests.swift */; };
+		349E56AF2A1A1DA200802197 /* DisneyPlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349E56AE2A1A1DA200802197 /* DisneyPlusUITests.swift */; };
+		349E56B12A1A1DA200802197 /* DisneyPlusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349E56B02A1A1DA200802197 /* DisneyPlusUITestsLaunchTests.swift */; };
+		34C9FC8C2A1A32F0004B622A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 34C9FC8B2A1A32F0004B622A /* SnapKit */; };
+		34C9FC8F2A1A330F004B622A /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = 34C9FC8E2A1A330F004B622A /* SwiftyGif */; };
+		34C9FC912A1A336D004B622A /* SplashRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C9FC902A1A336C004B622A /* SplashRepresentableView.swift */; };
+		34C9FC932A1A34D0004B622A /* disneyGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 34C9FC922A1A34D0004B622A /* disneyGIF.gif */; };
+		34C9FC952A1A36B3004B622A /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C9FC942A1A36B3004B622A /* SplashView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		349E56A12A1A1DA200802197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349E56882A1A1DA000802197 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349E568F2A1A1DA000802197;
+			remoteInfo = DisneyPlus;
+		};
+		349E56AB2A1A1DA200802197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349E56882A1A1DA000802197 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349E568F2A1A1DA000802197;
+			remoteInfo = DisneyPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		349E56902A1A1DA000802197 /* DisneyPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		349E56932A1A1DA000802197 /* DisneyPlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyPlusApp.swift; sourceTree = "<group>"; };
+		349E56952A1A1DA000802197 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		349E56972A1A1DA200802197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		349E569A2A1A1DA200802197 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		349E56A02A1A1DA200802197 /* DisneyPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneyPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		349E56A42A1A1DA200802197 /* DisneyPlusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyPlusTests.swift; sourceTree = "<group>"; };
+		349E56AA2A1A1DA200802197 /* DisneyPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneyPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		349E56AE2A1A1DA200802197 /* DisneyPlusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyPlusUITests.swift; sourceTree = "<group>"; };
+		349E56B02A1A1DA200802197 /* DisneyPlusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyPlusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		34C9FC902A1A336C004B622A /* SplashRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRepresentableView.swift; sourceTree = "<group>"; };
+		34C9FC922A1A34D0004B622A /* disneyGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = disneyGIF.gif; sourceTree = "<group>"; };
+		34C9FC942A1A36B3004B622A /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		349E568D2A1A1DA000802197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C9FC8C2A1A32F0004B622A /* SnapKit in Frameworks */,
+				34C9FC8F2A1A330F004B622A /* SwiftyGif in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349E569D2A1A1DA200802197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349E56A72A1A1DA200802197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		349E56872A1A1DA000802197 = {
+			isa = PBXGroup;
+			children = (
+				349E56922A1A1DA000802197 /* DisneyPlus */,
+				349E56A32A1A1DA200802197 /* DisneyPlusTests */,
+				349E56AD2A1A1DA200802197 /* DisneyPlusUITests */,
+				349E56912A1A1DA000802197 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		349E56912A1A1DA000802197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				349E56902A1A1DA000802197 /* DisneyPlus.app */,
+				349E56A02A1A1DA200802197 /* DisneyPlusTests.xctest */,
+				349E56AA2A1A1DA200802197 /* DisneyPlusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		349E56922A1A1DA000802197 /* DisneyPlus */ = {
+			isa = PBXGroup;
+			children = (
+				349E56C42A1A1E7500802197 /* gif */,
+				349E56C32A1A1E7100802197 /* utils */,
+				349E56C22A1A1E6F00802197 /* components */,
+				349E56BF2A1A1E6300802197 /* views */,
+				349E56BE2A1A1E5000802197 /* models */,
+				349E56BD2A1A1E4E00802197 /* routers */,
+				349E56932A1A1DA000802197 /* DisneyPlusApp.swift */,
+				349E56952A1A1DA000802197 /* ContentView.swift */,
+				349E56972A1A1DA200802197 /* Assets.xcassets */,
+				349E56992A1A1DA200802197 /* Preview Content */,
+			);
+			path = DisneyPlus;
+			sourceTree = "<group>";
+		};
+		349E56992A1A1DA200802197 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				349E569A2A1A1DA200802197 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		349E56A32A1A1DA200802197 /* DisneyPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				349E56A42A1A1DA200802197 /* DisneyPlusTests.swift */,
+			);
+			path = DisneyPlusTests;
+			sourceTree = "<group>";
+		};
+		349E56AD2A1A1DA200802197 /* DisneyPlusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				349E56AE2A1A1DA200802197 /* DisneyPlusUITests.swift */,
+				349E56B02A1A1DA200802197 /* DisneyPlusUITestsLaunchTests.swift */,
+			);
+			path = DisneyPlusUITests;
+			sourceTree = "<group>";
+		};
+		349E56BD2A1A1E4E00802197 /* routers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = routers;
+			sourceTree = "<group>";
+		};
+		349E56BE2A1A1E5000802197 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		349E56BF2A1A1E6300802197 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				34C9FC902A1A336C004B622A /* SplashRepresentableView.swift */,
+				34C9FC942A1A36B3004B622A /* SplashView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		349E56C22A1A1E6F00802197 /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		349E56C32A1A1E7100802197 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		349E56C42A1A1E7500802197 /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				34C9FC922A1A34D0004B622A /* disneyGIF.gif */,
+			);
+			path = gif;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		349E568F2A1A1DA000802197 /* DisneyPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349E56B42A1A1DA200802197 /* Build configuration list for PBXNativeTarget "DisneyPlus" */;
+			buildPhases = (
+				349E568C2A1A1DA000802197 /* Sources */,
+				349E568D2A1A1DA000802197 /* Frameworks */,
+				349E568E2A1A1DA000802197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisneyPlus;
+			packageProductDependencies = (
+				34C9FC8B2A1A32F0004B622A /* SnapKit */,
+				34C9FC8E2A1A330F004B622A /* SwiftyGif */,
+			);
+			productName = DisneyPlus;
+			productReference = 349E56902A1A1DA000802197 /* DisneyPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		349E569F2A1A1DA200802197 /* DisneyPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349E56B72A1A1DA200802197 /* Build configuration list for PBXNativeTarget "DisneyPlusTests" */;
+			buildPhases = (
+				349E569C2A1A1DA200802197 /* Sources */,
+				349E569D2A1A1DA200802197 /* Frameworks */,
+				349E569E2A1A1DA200802197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349E56A22A1A1DA200802197 /* PBXTargetDependency */,
+			);
+			name = DisneyPlusTests;
+			productName = DisneyPlusTests;
+			productReference = 349E56A02A1A1DA200802197 /* DisneyPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		349E56A92A1A1DA200802197 /* DisneyPlusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349E56BA2A1A1DA200802197 /* Build configuration list for PBXNativeTarget "DisneyPlusUITests" */;
+			buildPhases = (
+				349E56A62A1A1DA200802197 /* Sources */,
+				349E56A72A1A1DA200802197 /* Frameworks */,
+				349E56A82A1A1DA200802197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349E56AC2A1A1DA200802197 /* PBXTargetDependency */,
+			);
+			name = DisneyPlusUITests;
+			productName = DisneyPlusUITests;
+			productReference = 349E56AA2A1A1DA200802197 /* DisneyPlusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		349E56882A1A1DA000802197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					349E568F2A1A1DA000802197 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					349E569F2A1A1DA200802197 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 349E568F2A1A1DA000802197;
+					};
+					349E56A92A1A1DA200802197 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 349E568F2A1A1DA000802197;
+					};
+				};
+			};
+			buildConfigurationList = 349E568B2A1A1DA000802197 /* Build configuration list for PBXProject "DisneyPlus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 349E56872A1A1DA000802197;
+			packageReferences = (
+				34C9FC8A2A1A32F0004B622A /* XCRemoteSwiftPackageReference "SnapKit" */,
+				34C9FC8D2A1A330F004B622A /* XCRemoteSwiftPackageReference "SwiftyGif" */,
+			);
+			productRefGroup = 349E56912A1A1DA000802197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				349E568F2A1A1DA000802197 /* DisneyPlus */,
+				349E569F2A1A1DA200802197 /* DisneyPlusTests */,
+				349E56A92A1A1DA200802197 /* DisneyPlusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		349E568E2A1A1DA000802197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349E569B2A1A1DA200802197 /* Preview Assets.xcassets in Resources */,
+				349E56982A1A1DA200802197 /* Assets.xcassets in Resources */,
+				34C9FC932A1A34D0004B622A /* disneyGIF.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349E569E2A1A1DA200802197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349E56A82A1A1DA200802197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		349E568C2A1A1DA000802197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C9FC912A1A336D004B622A /* SplashRepresentableView.swift in Sources */,
+				34C9FC952A1A36B3004B622A /* SplashView.swift in Sources */,
+				349E56962A1A1DA000802197 /* ContentView.swift in Sources */,
+				349E56942A1A1DA000802197 /* DisneyPlusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349E569C2A1A1DA200802197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349E56A52A1A1DA200802197 /* DisneyPlusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349E56A62A1A1DA200802197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349E56B12A1A1DA200802197 /* DisneyPlusUITestsLaunchTests.swift in Sources */,
+				349E56AF2A1A1DA200802197 /* DisneyPlusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		349E56A22A1A1DA200802197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349E568F2A1A1DA000802197 /* DisneyPlus */;
+			targetProxy = 349E56A12A1A1DA200802197 /* PBXContainerItemProxy */;
+		};
+		349E56AC2A1A1DA200802197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349E568F2A1A1DA000802197 /* DisneyPlus */;
+			targetProxy = 349E56AB2A1A1DA200802197 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		349E56B22A1A1DA200802197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		349E56B32A1A1DA200802197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		349E56B52A1A1DA200802197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DisneyPlus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oguuk.DisneyPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		349E56B62A1A1DA200802197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DisneyPlus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oguuk.DisneyPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		349E56B82A1A1DA200802197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oguuk.DisneyPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisneyPlus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DisneyPlus";
+			};
+			name = Debug;
+		};
+		349E56B92A1A1DA200802197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oguuk.DisneyPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisneyPlus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DisneyPlus";
+			};
+			name = Release;
+		};
+		349E56BB2A1A1DA200802197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oguuk.DisneyPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DisneyPlus;
+			};
+			name = Debug;
+		};
+		349E56BC2A1A1DA200802197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oguuk.DisneyPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DisneyPlus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		349E568B2A1A1DA000802197 /* Build configuration list for PBXProject "DisneyPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349E56B22A1A1DA200802197 /* Debug */,
+				349E56B32A1A1DA200802197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349E56B42A1A1DA200802197 /* Build configuration list for PBXNativeTarget "DisneyPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349E56B52A1A1DA200802197 /* Debug */,
+				349E56B62A1A1DA200802197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349E56B72A1A1DA200802197 /* Build configuration list for PBXNativeTarget "DisneyPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349E56B82A1A1DA200802197 /* Debug */,
+				349E56B92A1A1DA200802197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349E56BA2A1A1DA200802197 /* Build configuration list for PBXNativeTarget "DisneyPlusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349E56BB2A1A1DA200802197 /* Debug */,
+				349E56BC2A1A1DA200802197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		34C9FC8A2A1A32F0004B622A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		34C9FC8D2A1A330F004B622A /* XCRemoteSwiftPackageReference "SwiftyGif" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kirualex/SwiftyGif";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		34C9FC8B2A1A32F0004B622A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34C9FC8A2A1A32F0004B622A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		34C9FC8E2A1A330F004B622A /* SwiftyGif */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34C9FC8D2A1A330F004B622A /* XCRemoteSwiftPackageReference "SwiftyGif" */;
+			productName = SwiftyGif;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 349E56882A1A1DA000802197 /* Project object */;
+}
