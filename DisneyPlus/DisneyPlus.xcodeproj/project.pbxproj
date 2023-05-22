@@ -19,6 +19,13 @@
 		34C9FC912A1A336D004B622A /* SplashRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C9FC902A1A336C004B622A /* SplashRepresentableView.swift */; };
 		34C9FC932A1A34D0004B622A /* disneyGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 34C9FC922A1A34D0004B622A /* disneyGIF.gif */; };
 		34C9FC952A1A36B3004B622A /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C9FC942A1A36B3004B622A /* SplashView.swift */; };
+		34C9FC972A1A6324004B622A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C9FC962A1A6324004B622A /* HomeView.swift */; };
+		34C9FC992A1A634C004B622A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C9FC982A1A634C004B622A /* SearchView.swift */; };
+		34C9FC9B2A1A6353004B622A /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C9FC9A2A1A6353004B622A /* DownloadView.swift */; };
+		34C9FC9D2A1A6359004B622A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C9FC9C2A1A6359004B622A /* ProfileView.swift */; };
+		34C9FC9F2A1A6391004B622A /* TabViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C9FC9E2A1A6391004B622A /* TabViewRouter.swift */; };
+		34C9FCA12A1A63F9004B622A /* TabBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C9FCA02A1A63F9004B622A /* TabBarIcon.swift */; };
+		34C9FCA32A1BA8DC004B622A /* GradientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C9FCA22A1BA8DB004B622A /* GradientBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +59,13 @@
 		34C9FC902A1A336C004B622A /* SplashRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRepresentableView.swift; sourceTree = "<group>"; };
 		34C9FC922A1A34D0004B622A /* disneyGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = disneyGIF.gif; sourceTree = "<group>"; };
 		34C9FC942A1A36B3004B622A /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		34C9FC962A1A6324004B622A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		34C9FC982A1A634C004B622A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		34C9FC9A2A1A6353004B622A /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
+		34C9FC9C2A1A6359004B622A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		34C9FC9E2A1A6391004B622A /* TabViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewRouter.swift; sourceTree = "<group>"; };
+		34C9FCA02A1A63F9004B622A /* TabBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarIcon.swift; sourceTree = "<group>"; };
+		34C9FCA22A1BA8DB004B622A /* GradientBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +160,7 @@
 		349E56BD2A1A1E4E00802197 /* routers */ = {
 			isa = PBXGroup;
 			children = (
+				34C9FC9E2A1A6391004B622A /* TabViewRouter.swift */,
 			);
 			path = routers;
 			sourceTree = "<group>";
@@ -162,6 +177,10 @@
 			children = (
 				34C9FC902A1A336C004B622A /* SplashRepresentableView.swift */,
 				34C9FC942A1A36B3004B622A /* SplashView.swift */,
+				34C9FC962A1A6324004B622A /* HomeView.swift */,
+				34C9FC982A1A634C004B622A /* SearchView.swift */,
+				34C9FC9A2A1A6353004B622A /* DownloadView.swift */,
+				34C9FC9C2A1A6359004B622A /* ProfileView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -169,6 +188,8 @@
 		349E56C22A1A1E6F00802197 /* components */ = {
 			isa = PBXGroup;
 			children = (
+				34C9FCA02A1A63F9004B622A /* TabBarIcon.swift */,
+				34C9FCA22A1BA8DB004B622A /* GradientBackgroundView.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -327,9 +348,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C9FC9D2A1A6359004B622A /* ProfileView.swift in Sources */,
 				34C9FC912A1A336D004B622A /* SplashRepresentableView.swift in Sources */,
+				34C9FC9F2A1A6391004B622A /* TabViewRouter.swift in Sources */,
 				34C9FC952A1A36B3004B622A /* SplashView.swift in Sources */,
 				349E56962A1A1DA000802197 /* ContentView.swift in Sources */,
+				34C9FC972A1A6324004B622A /* HomeView.swift in Sources */,
+				34C9FCA12A1A63F9004B622A /* TabBarIcon.swift in Sources */,
+				34C9FC9B2A1A6353004B622A /* DownloadView.swift in Sources */,
+				34C9FCA32A1BA8DC004B622A /* GradientBackgroundView.swift in Sources */,
+				34C9FC992A1A634C004B622A /* SearchView.swift in Sources */,
 				349E56942A1A1DA000802197 /* DisneyPlusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
