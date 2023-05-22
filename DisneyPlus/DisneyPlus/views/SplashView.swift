@@ -13,10 +13,10 @@ struct SplashView: View {
     
     var body: some View {
         ZStack {
-            Color.blue
+            Color.black
             VStack {
                 if isAppLaunchingReady {
-                    ContentView()
+                    ContentView(tabViewRouter: TabViewRouter())
                 } else {
                     SplashRepresentableView()
                         .frame(width: 300, height: 300)
@@ -30,5 +30,6 @@ struct SplashView: View {
                 }
             }
         }
+        .edgesIgnoringSafeArea(.all)
     }
 }
